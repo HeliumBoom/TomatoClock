@@ -1,0 +1,25 @@
+# .NET build output (including nested test projects)
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio local state and user preferences
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Project publish output
+/dist/
+/dist-*/
+
+# Generated verification screenshots and test results
+/artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Windows Explorer metadata
+Thumbs.db
+Desktop.ini
